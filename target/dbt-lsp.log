@@ -414,3 +414,210 @@
 14:08:18.589195 [debug]:   Finished [  0.00s] downloading relations
 14:08:18.661816 [info ]: Finished downloading schemas [  0.07s]
 14:08:18.931359 [info ]: Loading profiles.yml
+==================== 2026-03-05T10:49:36.922875Z | 75d35923-7be1-4e10-8b4a-356e40eed304 ====================
+10:49:36.923003 [info ]: Starting dbt LSP server
+10:49:36.923072 [info ]: Connecting to LSP client on port 8000
+10:49:36.925340 [info ]: Successfully connected to LSP client
+10:49:36.925375 [info ]: Creating LSP service...
+10:49:37.001108 [info ]: Creating LSP server...
+10:49:37.001129 [info ]: Starting LSP server...
+10:49:37.144657 [info ]: Started loading project
+10:49:37.150419 [info ]: Loading profiles.yml
+10:49:37.174427 [info ]:    Started resolving packages from packages.yml
+10:49:37.262718 [info ]:   Finished [  0.09s] resolving packages from packages.yml
+10:49:37.262835 [debug]:    Started loading packages
+10:49:37.274276 [debug]:     Loaded [  0.01s] packages
+10:49:37.275391 [info ]: Finished loading project [  0.13s]
+10:49:37.275734 [info ]: Started parsing
+10:49:37.342592 [debug]: Finished parsing models\staging\__sources.yml [  0.02s]
+10:49:37.390901 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models\staging\__sources.yml:140:20
+10:49:37.399775 [error]: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> models\staging\__sources.yml:168:5
+10:49:37.401623 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models\staging\__sources.yml:187:20
+10:49:37.422927 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models\staging\__sources.yml:180:20
+10:49:37.429648 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models\staging\__sources.yml:273:20
+10:49:37.452864 [debug]: Finished parsing models\marts\customer_loyalty_metrics.sql [  0.01s]
+10:49:37.462733 [debug]: Finished parsing models\marts\orders.sql [  0.01s]
+10:49:37.469799 [debug]: Finished parsing models\staging\raw_customer_customer_loyalty.sql [  0.01s]
+10:49:37.479354 [debug]: Finished parsing models\staging\raw_pos_country.sql [  0.01s]
+10:49:37.485814 [debug]: Finished parsing models\staging\raw_pos_franchise.sql [  0.01s]
+10:49:37.493667 [debug]: Finished parsing models\staging\raw_pos_location.sql [  0.01s]
+10:49:37.500627 [debug]: Finished parsing models\staging\raw_pos_menu.sql [  0.01s]
+10:49:37.508816 [debug]: Finished parsing models\staging\raw_pos_order_detail.sql [  0.01s]
+10:49:37.515850 [debug]: Finished parsing models\staging\raw_pos_order_header.sql [  0.01s]
+10:49:37.549633 [debug]: Finished parsing models\staging\raw_pos_truck.sql [  0.03s]
+10:49:37.551575 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_MENU_SALE_PRICE_USD.sql [  0.00s]
+10:49:37.551591 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_FRANCHISE_LAST_NAME.sql [  0.00s]
+10:49:37.551605 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_YEAR.sql [  0.00s]
+10:49:37.551609 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_COUNTRY.sql [  0.00s]
+10:49:37.551612 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_CURRENCY.sql [  0.00s]
+10:49:37.551646 [debug]: Finished parsing target\generic_tests\source_unique_tb_101_LOCATION_PLACEKEY.sql [  0.00s]
+10:49:37.551687 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_QUANTITY.sql [  0.00s]
+10:49:37.551894 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_COUNTRY_CITY_POPULATION.sql [  0.00s]
+10:49:37.552882 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_ID.sql [  0.00s]
+10:49:37.552874 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_MENU_COST_OF_GOODS_USD.sql [  0.00s]
+10:49:37.552969 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_LINE_NUMBER.sql [  0.00s]
+10:49:37.553006 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_COUNTRY_COUNTRY.sql [  0.00s]
+10:49:37.553063 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_DETAIL_QUANTITY.sql [  0.00s]
+10:49:37.553064 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_CITY.sql [  0.00s]
+10:49:37.553319 [debug]: Finished parsing target\generic_tests\source_relationships_tb_101_TR_61b29f3e57bd111e177a1464f4c4b159.sql [  0.00s]
+10:49:37.554495 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_DETAIL_UNIT_PRICE.sql [  0.00s]
+10:49:37.554509 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_COUNTRY.sql [  0.00s]
+10:49:37.554516 [debug]: Finished parsing target\generic_tests\source_unique_tb_101_MENU_MENU_ID.sql [  0.00s]
+10:49:37.554549 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_MENU_ITEM_ID.sql [  0.00s]
+10:49:37.554641 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_MENU_TYPE_ID.sql [  0.00s]
+10:49:37.554648 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_COUNTRY_COUNTRY_ID.sql [  0.00s]
+10:49:37.554785 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_TOTAL.sql [  0.00s]
+10:49:37.556044 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_HEADER_ORDER_TOTAL.sql [  0.00s]
+10:49:37.556115 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_LOCATION_ID.sql [  0.00s]
+10:49:37.556143 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_ORDER_DETAIL_ID.sql [  0.00s]
+10:49:37.556175 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_PRIMARY_CITY.sql [  0.00s]
+10:49:37.556203 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_COUNTRY_ISO_COUNTRY.sql [  0.00s]
+10:49:37.556409 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_ISO_COUNTRY_CODE.sql [  0.00s]
+10:49:37.556777 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_MENU_MENU_ID.sql [  0.00s]
+10:49:37.557536 [debug]: Finished parsing target\generic_tests\source_relationships_tb_101_OR_7ae3fa453ae71ee50b5d210b006f5af3.sql [  0.00s]
+10:49:37.557548 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_MENU_MENU_ITEM_ID.sql [  0.00s]
+10:49:37.557563 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_ORDER_ID.sql [  0.00s]
+10:49:37.557586 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_LOCATION.sql [  0.00s]
+10:49:37.557603 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_TS.sql [  0.00s]
+10:49:37.557617 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_FRANCHISE_E_MAIL.sql [  0.00s]
+10:49:37.557676 [debug]: Finished parsing target\generic_tests\source_unique_tb_101_TRUCK_TRUCK_ID.sql [  0.00s]
+10:49:37.558778 [debug]: Finished parsing target\generic_tests\source_unique_tb_101_LOCATION_LOCATION_ID.sql [  0.00s]
+10:49:37.558800 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_TRUCK_ID.sql [  0.00s]
+10:49:37.558816 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_MENU_MENU_ITEM_NAME.sql [  0.00s]
+10:49:37.558822 [debug]: Finished parsing target\generic_tests\source_relationships_tb_101_OR_cfd9c5a58204b2c088624e2dccdb70b4.sql [  0.00s]
+10:49:37.558854 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_TRUCK_ID.sql [  0.00s]
+10:49:37.558889 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_AMOUNT.sql [  0.00s]
+10:49:37.558917 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_FRANCHISE_FIRST_NAME.sql [  0.00s]
+10:49:37.560100 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_DETAIL_PRICE.sql [  0.00s]
+10:49:37.560120 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_LOCATION_ID.sql [  0.00s]
+10:49:37.560140 [debug]: Finished parsing target\generic_tests\source_relationships_tb_101_OR_073702fefa7ee71ff74298665e538aca.sql [  0.00s]
+10:49:37.560161 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_HEADER_ORDER_AMOUNT.sql [  0.00s]
+10:49:37.560166 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_MENU_MENU_TYPE_ID.sql [  0.00s]
+10:49:37.560183 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_FRANCHISE_FRANCHISE_ID.sql [  0.00s]
+10:49:37.560230 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_TRUCK_OPENING_DATE.sql [  0.00s]
+10:49:37.578132 [info ]: Finished parsing [  0.30s]
+10:49:37.579571 [info ]: Cached model count updated: 10 models (estimate)
+10:49:37.579582 [info ]: Cached model count updated: 11 models (accurate)
+10:49:37.579724 [info ]: Started scheduling
+10:49:37.580042 [info ]: Finished scheduling [  0.00s]
+10:49:37.580083 [info ]: Started scheduling
+10:49:37.580244 [info ]: Finished scheduling [  0.00s]
+10:49:37.580386 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "MENU" }) and interval: None
+10:49:37.580451 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "FRANCHISE" }) and interval: None
+10:49:37.580520 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "ORDER_HEADER" }) and interval: None
+10:49:37.580557 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "TRUCK" }) and interval: None
+10:49:37.580589 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "ORDER_DETAIL" }) and interval: None
+10:49:37.580621 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "CUSTOMER_LOYALTY" }) and interval: None
+10:49:37.580663 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "LOCATION" }) and interval: None
+10:49:37.580697 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "COUNTRY" }) and interval: None
+10:49:37.581336 [info ]: Started deferring state
+10:49:37.581355 [info ]: Finished deferring state [  0.00s]
+10:49:37.746074 [info ]: Started building task graph
+10:49:37.748887 [info ]: Finished building task graph [  0.00s]
+10:49:37.749196 [info ]: Started rendering (11 nodes)
+10:49:37.749235 [info ]: Started model dev.raw_pos_country
+10:49:37.749262 [debug]: Started rendering model dev.raw_pos_country
+10:49:37.749292 [info ]: Started model dev.raw_pos_truck
+10:49:37.749299 [debug]: Started rendering model dev.raw_pos_truck
+10:49:37.749311 [info ]: Started model dev.raw_pos_order_detail
+10:49:37.749317 [debug]: Started rendering model dev.raw_pos_order_detail
+10:49:37.749344 [info ]: Started model dev.raw_pos_menu
+10:49:37.749349 [debug]: Started rendering model dev.raw_pos_menu
+10:49:37.749357 [info ]: Started model dev.raw_pos_location
+10:49:37.749362 [debug]: Started rendering model dev.raw_pos_location
+10:49:37.749371 [info ]: Started model dev.raw_pos_franchise
+10:49:37.749376 [debug]: Started rendering model dev.raw_pos_franchise
+10:49:37.749383 [info ]: Started model dev.raw_pos_order_header
+10:49:37.749410 [debug]: Started rendering model dev.raw_pos_order_header
+10:49:37.749419 [info ]: Started model dev.raw_customer_customer_loyalty
+10:49:37.749425 [debug]: Started rendering model dev.raw_customer_customer_loyalty
+10:49:37.774321 [debug]: Compiled SQL for node model.tasty_bytes.raw_pos_location at target\.lsp\compiled\models\staging\raw_pos_location.sql
+10:49:37.774332 [debug]: Compiled SQL for node model.tasty_bytes.raw_pos_menu at target\.lsp\compiled\models\staging\raw_pos_menu.sql
+10:49:37.774413 [debug]: Compiled SQL for node model.tasty_bytes.raw_pos_franchise at target\.lsp\compiled\models\staging\raw_pos_franchise.sql
+10:49:37.774479 [debug]: Compiled SQL for node model.tasty_bytes.raw_pos_country at target\.lsp\compiled\models\staging\raw_pos_country.sql
+10:49:37.774572 [debug]: Finished rendering [  0.03s] model dev.raw_pos_menu [success]
+10:49:37.774623 [info ]: Started analyzing (10 nodes)
+10:49:37.774651 [debug]: Started analyzing model dev.raw_pos_menu
+10:49:37.774680 [debug]: Finished rendering [  0.03s] model dev.raw_pos_franchise [success]
+10:49:37.774701 [debug]: Started analyzing model dev.raw_pos_franchise
+10:49:37.774730 [debug]: Finished rendering [  0.03s] model dev.raw_pos_country [success]
+10:49:37.774748 [debug]: Started analyzing model dev.raw_pos_country
+10:49:37.774770 [debug]: Finished rendering [  0.03s] model dev.raw_pos_location [success]
+10:49:37.774788 [debug]: Started analyzing model dev.raw_pos_location
+10:49:37.778711 [debug]: Compiled SQL for node model.tasty_bytes.raw_pos_order_header at target\.lsp\compiled\models\staging\raw_pos_order_header.sql
+10:49:37.778802 [debug]: Started analyzing model dev.raw_pos_order_header
+10:49:37.779950 [debug]: Compiled SQL for node model.tasty_bytes.raw_customer_customer_loyalty at target\.lsp\compiled\models\staging\raw_customer_customer_loyalty.sql
+10:49:37.780086 [debug]: Started analyzing model dev.raw_customer_customer_loyalty
+10:49:37.780486 [debug]: Compiled SQL for node model.tasty_bytes.raw_pos_order_detail at target\.lsp\compiled\models\staging\raw_pos_order_detail.sql
+10:49:37.780654 [debug]: Finished rendering [  0.03s] model dev.raw_customer_customer_loyalty [success]
+10:49:37.780803 [debug]: Finished rendering [  0.03s] model dev.raw_pos_order_header [success]
+10:49:37.782831 [debug]: Finished rendering [  0.03s] model dev.raw_pos_order_detail [success]
+10:49:37.782889 [debug]: Started analyzing model dev.raw_pos_order_detail
+10:49:37.783464 [debug]: Compiled SQL for node model.tasty_bytes.raw_pos_truck at target\.lsp\compiled\models\staging\raw_pos_truck.sql
+10:49:37.783653 [debug]: Started analyzing model dev.raw_pos_truck
+10:49:37.796093 [debug]: Schema hydration: registering 0 schemas from db_runner
+10:49:37.796093 [debug]: Schema hydration: registering 0 schemas from db_runner
+10:49:37.796093 [debug]: Schema hydration: registering 0 schemas from db_runner
+10:49:37.796095 [debug]: Schema hydration: registering 0 schemas from db_runner
+10:49:37.796093 [debug]: Schema hydration: registering 0 schemas from db_runner
+10:49:37.796209 [debug]: Schema hydration: registering 0 schemas from db_runner
+10:49:37.796258 [debug]: Schema hydration: registering 0 schemas from db_runner
+10:49:37.796370 [debug]: Schema hydration: registering 0 schemas from db_runner
+10:49:37.832081 [error]: dbt0214: Table 'COUNTRY' does not exist in schema TASTY_BYTES_DBT_DB.RAW
+  --> models\staging\raw_pos_country.sql:2:6
+10:49:37.832081 [error]: dbt0214: Table 'CUSTOMER_LOYALTY' does not exist in schema TASTY_BYTES_DBT_DB.RAW
+  --> models\staging\raw_customer_customer_loyalty.sql:2:6
+10:49:37.832081 [error]: dbt0214: Table 'FRANCHISE' does not exist in schema TASTY_BYTES_DBT_DB.RAW
+  --> models\staging\raw_pos_franchise.sql:2:6
+10:49:37.832081 [error]: dbt0214: Table 'LOCATION' does not exist in schema TASTY_BYTES_DBT_DB.RAW
+  --> models\staging\raw_pos_location.sql:2:6
+10:49:37.832081 [error]: dbt0214: Table 'ORDER_HEADER' does not exist in schema TASTY_BYTES_DBT_DB.RAW
+  --> models\staging\raw_pos_order_header.sql:2:6
+10:49:37.832094 [error]: dbt0214: Table 'TRUCK' does not exist in schema TASTY_BYTES_DBT_DB.RAW
+  --> models\staging\raw_pos_truck.sql:2:6
+10:49:37.832130 [error]: dbt0214: Table 'ORDER_DETAIL' does not exist in schema TASTY_BYTES_DBT_DB.RAW
+  --> models\staging\raw_pos_order_detail.sql:2:6
+10:49:37.832245 [error]: dbt0214: Table 'MENU' does not exist in schema TASTY_BYTES_DBT_DB.RAW
+  --> models\staging\raw_pos_menu.sql:2:6
+10:49:37.832239 [debug]: Finished rendering [  0.08s] model dev.raw_pos_truck [success]
+10:49:37.832246 [info ]:     Failed [  0.08s] model dev.raw_pos_location (view)
+10:49:37.832283 [debug]: Finished analyzing [  0.06s] model dev.raw_pos_location [error]
+10:49:37.832348 [info ]:     Failed [  0.08s] model dev.raw_pos_country (view)
+10:49:37.832368 [debug]: Finished analyzing [  0.06s] model dev.raw_pos_country [error]
+10:49:37.832406 [info ]:     Failed [  0.08s] model dev.raw_customer_customer_loyalty (view)
+10:49:37.832452 [debug]: Finished analyzing [  0.05s] model dev.raw_customer_customer_loyalty [error]
+10:49:37.832495 [info ]:     Failed [  0.08s] model dev.raw_pos_truck (view)
+10:49:37.832547 [debug]: Finished analyzing [  0.05s] model dev.raw_pos_truck [error]
+10:49:37.832593 [info ]:     Failed [  0.08s] model dev.raw_pos_franchise (view)
+10:49:37.832612 [debug]: Finished analyzing [  0.06s] model dev.raw_pos_franchise [error]
+10:49:37.832652 [info ]:     Failed [  0.08s] model dev.raw_pos_order_detail (view)
+10:49:37.832689 [debug]: Finished analyzing [  0.05s] model dev.raw_pos_order_detail [error]
+10:49:37.832715 [info ]:     Failed [  0.08s] model dev.raw_pos_order_header (view)
+10:49:37.832735 [debug]: Finished analyzing [  0.05s] model dev.raw_pos_order_header [error]
+10:49:37.832784 [info ]: Started model dev.customer_loyalty_metrics
+10:49:37.832806 [debug]: Started rendering model dev.customer_loyalty_metrics
+10:49:37.832839 [debug]: Finished rendering [  0.00s] model dev.customer_loyalty_metrics [skipped]
+10:49:37.832860 [debug]: Started analyzing model dev.customer_loyalty_metrics
+10:49:37.832880 [info ]:    Skipped [-------] model dev.customer_loyalty_metrics (table)
+10:49:37.832905 [debug]: Finished analyzing [  0.00s] model dev.customer_loyalty_metrics [skipped]
+10:49:37.832925 [info ]: Started model dev.sales_metrics_by_location
+10:49:37.832945 [debug]: Started rendering model dev.sales_metrics_by_location
+10:49:37.832966 [info ]:    Skipped [-------] model dev.sales_metrics_by_location (table)
+10:49:37.832991 [debug]: Finished rendering [  0.00s] model dev.sales_metrics_by_location [skipped]
+10:49:37.833012 [info ]:     Failed [  0.08s] model dev.raw_pos_menu (view)
+10:49:37.833031 [debug]: Finished analyzing [  0.06s] model dev.raw_pos_menu [error]
+10:49:37.833087 [info ]: Started model dev.orders
+10:49:37.833096 [debug]: Started rendering model dev.orders
+10:49:37.833111 [debug]: Finished rendering [  0.00s] model dev.orders [skipped]
+10:49:37.833118 [info ]: Finished rendering [  0.08s] (11 nodes, 3 skipped, 0 errors)
+10:49:37.833140 [debug]: Started analyzing model dev.orders
+10:49:37.833149 [info ]:    Skipped [-------] model dev.orders (table)
+10:49:37.833160 [debug]: Finished analyzing [  0.00s] model dev.orders [skipped]
+10:49:37.833164 [info ]: Finished analyzing [  0.06s] (10 nodes, 2 skipped, 8 errors)
+10:49:37.840301 [info ]: Cached model count updated: 11 models (accurate)
+10:49:37.845447 [info ]: Loading profiles.yml
