@@ -1,0 +1,416 @@
+==================== 2026-02-27T14:01:57.077169Z | cc59f5e9-1c89-4134-855d-2e2bceebfb3a ====================
+14:01:57.077316 [info ]: Starting dbt LSP server
+14:01:57.077380 [info ]: Connecting to LSP client on port 8000
+14:01:57.080341 [info ]: Successfully connected to LSP client
+14:01:57.080361 [info ]: Creating LSP service...
+14:01:57.155530 [info ]: Creating LSP server...
+14:01:57.155549 [info ]: Starting LSP server...
+14:01:57.215455 [info ]: Started loading project
+14:01:57.223853 [info ]: Loading profiles.yml
+14:01:57.241375 [info ]:    Started resolving packages from packages.yml
+14:01:57.435012 [info ]:   Finished [  0.19s] resolving packages from packages.yml
+14:01:57.435147 [debug]:    Started loading packages
+14:01:57.444248 [debug]:     Loaded [  0.01s] packages
+14:01:57.446092 [info ]: Finished loading project [  0.23s]
+14:01:57.446549 [info ]: Started parsing
+14:01:57.579809 [debug]: Finished parsing models\staging\__sources.yml [  0.02s]
+14:01:57.641435 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models\staging\__sources.yml:140:20
+14:01:57.655268 [error]: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> models\staging\__sources.yml:168:5
+14:01:57.657226 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models\staging\__sources.yml:187:20
+14:01:57.671971 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models\staging\__sources.yml:180:20
+14:01:57.677339 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models\staging\__sources.yml:273:20
+14:01:57.727188 [debug]: Finished parsing models\marts\customer_loyalty_metrics.sql [  0.04s]
+14:01:57.740388 [debug]: Finished parsing models\marts\orders.sql [  0.01s]
+14:01:57.752171 [debug]: Finished parsing models\staging\raw_customer_customer_loyalty.sql [  0.01s]
+14:01:57.764281 [debug]: Finished parsing models\staging\raw_pos_country.sql [  0.01s]
+14:01:57.776133 [debug]: Finished parsing models\staging\raw_pos_franchise.sql [  0.01s]
+14:01:57.785096 [debug]: Finished parsing models\staging\raw_pos_location.sql [  0.01s]
+14:01:57.794714 [debug]: Finished parsing models\staging\raw_pos_menu.sql [  0.01s]
+14:01:57.804529 [debug]: Finished parsing models\staging\raw_pos_order_detail.sql [  0.01s]
+14:01:57.815013 [debug]: Finished parsing models\staging\raw_pos_order_header.sql [  0.01s]
+14:01:57.853640 [debug]: Finished parsing models\staging\raw_pos_truck.sql [  0.04s]
+14:01:57.857657 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_YEAR.sql [  0.00s]
+14:01:57.857683 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_COUNTRY.sql [  0.00s]
+14:01:57.857697 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_QUANTITY.sql [  0.00s]
+14:01:57.857719 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_COUNTRY_CITY_POPULATION.sql [  0.00s]
+14:01:57.857727 [debug]: Finished parsing target\generic_tests\source_unique_tb_101_LOCATION_PLACEKEY.sql [  0.00s]
+14:01:57.857849 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_CURRENCY.sql [  0.00s]
+14:01:57.858237 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_MENU_SALE_PRICE_USD.sql [  0.00s]
+14:01:57.858332 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_FRANCHISE_LAST_NAME.sql [  0.00s]
+14:01:57.859201 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_MENU_COST_OF_GOODS_USD.sql [  0.00s]
+14:01:57.859256 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_DETAIL_QUANTITY.sql [  0.00s]
+14:01:57.859277 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_ID.sql [  0.00s]
+14:01:57.859282 [debug]: Finished parsing target\generic_tests\source_relationships_tb_101_TR_61b29f3e57bd111e177a1464f4c4b159.sql [  0.00s]
+14:01:57.859338 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_LINE_NUMBER.sql [  0.00s]
+14:01:57.859675 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_CITY.sql [  0.00s]
+14:01:57.859751 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_COUNTRY_COUNTRY.sql [  0.00s]
+14:01:57.860516 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_DETAIL_UNIT_PRICE.sql [  0.00s]
+14:01:57.860595 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_MENU_TYPE_ID.sql [  0.00s]
+14:01:57.860618 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_MENU_ITEM_ID.sql [  0.00s]
+14:01:57.860581 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_COUNTRY.sql [  0.00s]
+14:01:57.860737 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_TOTAL.sql [  0.00s]
+14:01:57.861125 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_COUNTRY_COUNTRY_ID.sql [  0.00s]
+14:01:57.861246 [debug]: Finished parsing target\generic_tests\source_unique_tb_101_MENU_MENU_ID.sql [  0.00s]
+14:01:57.861914 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_LOCATION_ID.sql [  0.00s]
+14:01:57.862074 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_ISO_COUNTRY_CODE.sql [  0.00s]
+14:01:57.862113 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_PRIMARY_CITY.sql [  0.00s]
+14:01:57.862279 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_MENU_MENU_ID.sql [  0.00s]
+14:01:57.862318 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_HEADER_ORDER_TOTAL.sql [  0.00s]
+14:01:57.862698 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_ORDER_DETAIL_ID.sql [  0.00s]
+14:01:57.862834 [debug]: Finished parsing target\generic_tests\source_relationships_tb_101_OR_7ae3fa453ae71ee50b5d210b006f5af3.sql [  0.00s]
+14:01:57.863163 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_COUNTRY_ISO_COUNTRY.sql [  0.00s]
+14:01:57.863172 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_LOCATION.sql [  0.00s]
+14:01:57.863589 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_MENU_MENU_ITEM_ID.sql [  0.00s]
+14:01:57.864271 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_TS.sql [  0.00s]
+14:01:57.864336 [debug]: Finished parsing target\generic_tests\source_unique_tb_101_LOCATION_LOCATION_ID.sql [  0.00s]
+14:01:57.864372 [debug]: Finished parsing target\generic_tests\source_unique_tb_101_TRUCK_TRUCK_ID.sql [  0.00s]
+14:01:57.864390 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_ORDER_ID.sql [  0.00s]
+14:01:57.864424 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_FRANCHISE_E_MAIL.sql [  0.00s]
+14:01:57.864551 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_MENU_MENU_ITEM_NAME.sql [  0.00s]
+14:01:57.864619 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_AMOUNT.sql [  0.00s]
+14:01:57.865955 [debug]: Finished parsing target\generic_tests\source_relationships_tb_101_OR_cfd9c5a58204b2c088624e2dccdb70b4.sql [  0.00s]
+14:01:57.866157 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_MENU_MENU_TYPE_ID.sql [  0.00s]
+14:01:57.866173 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_LOCATION_ID.sql [  0.00s]
+14:01:57.866214 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_TRUCK_ID.sql [  0.00s]
+14:01:57.866252 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_HEADER_ORDER_AMOUNT.sql [  0.00s]
+14:01:57.866318 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_TRUCK_ID.sql [  0.00s]
+14:01:57.866617 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_FRANCHISE_FIRST_NAME.sql [  0.00s]
+14:01:57.867351 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_DETAIL_PRICE.sql [  0.00s]
+14:01:57.867445 [debug]: Finished parsing target\generic_tests\source_relationships_tb_101_OR_073702fefa7ee71ff74298665e538aca.sql [  0.00s]
+14:01:57.867462 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_TRUCK_OPENING_DATE.sql [  0.00s]
+14:01:57.867642 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_FRANCHISE_FRANCHISE_ID.sql [  0.00s]
+14:01:57.905675 [info ]: Finished parsing [  0.46s]
+14:01:57.912281 [info ]: Cached model count updated: 10 models (estimate)
+14:01:57.912314 [info ]: Cached model count updated: 11 models (accurate)
+14:01:57.915777 [info ]: Started scheduling
+14:01:57.920703 [info ]: Finished scheduling [  0.00s]
+14:01:57.921243 [info ]: Started scheduling
+14:01:57.921494 [info ]: Finished scheduling [  0.00s]
+14:01:57.927384 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "COUNTRY" }) and interval: None
+14:01:57.927984 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "FRANCHISE" }) and interval: None
+14:01:57.928051 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "LOCATION" }) and interval: None
+14:01:57.928101 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "ORDER_DETAIL" }) and interval: None
+14:01:57.928150 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "ORDER_HEADER" }) and interval: None
+14:01:57.928235 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "TRUCK" }) and interval: None
+14:01:57.928278 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "MENU" }) and interval: None
+14:01:57.928318 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "CUSTOMER_LOYALTY" }) and interval: None
+14:01:57.936451 [info ]: Started deferring state
+14:01:57.936957 [info ]: Finished deferring state [  0.00s]
+14:01:57.990584 [info ]: Started downloading schemas
+14:01:57.993236 [debug]:    Started downloading relations
+14:01:57.996093 [debug]:   Finished [  0.00s] downloading relations
+14:01:58.142463 [info ]: Loading profiles.yml
+14:01:58.395844 [info ]: Finished downloading schemas [  0.41s]
+14:02:42.711660 [info ]: Started loading project
+14:02:42.712467 [info ]: Loading profiles.yml
+14:02:42.721795 [info ]:    Started resolving packages from packages.yml
+14:02:42.771365 [info ]:   Finished [  0.05s] resolving packages from packages.yml
+14:02:42.771424 [debug]:    Started loading packages
+14:02:42.777655 [debug]:     Loaded [  0.01s] packages
+14:02:42.778322 [info ]: Finished loading project [  0.07s]
+14:02:42.778570 [info ]: Started parsing
+14:02:42.844313 [debug]: Finished parsing models\staging\__sources.yml [  0.02s]
+14:02:42.873880 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models\staging\__sources.yml:140:20
+14:02:42.879555 [error]: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> models\staging\__sources.yml:168:5
+14:02:42.880878 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models\staging\__sources.yml:187:20
+14:02:42.891222 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models\staging\__sources.yml:180:20
+14:02:42.895449 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models\staging\__sources.yml:273:20
+14:02:42.903057 [debug]: Finished parsing models\marts\customer_loyalty_metrics.sql [  0.00s]
+14:02:42.905305 [debug]: Finished parsing models\marts\orders.sql [  0.00s]
+14:02:42.906998 [debug]: Finished parsing models\staging\raw_customer_customer_loyalty.sql [  0.00s]
+14:02:42.907903 [debug]: Finished parsing models\staging\raw_pos_country.sql [  0.00s]
+14:02:42.908769 [debug]: Finished parsing models\staging\raw_pos_franchise.sql [  0.00s]
+14:02:42.909808 [debug]: Finished parsing models\staging\raw_pos_location.sql [  0.00s]
+14:02:42.910687 [debug]: Finished parsing models\staging\raw_pos_menu.sql [  0.00s]
+14:02:42.911363 [debug]: Finished parsing models\staging\raw_pos_order_detail.sql [  0.00s]
+14:02:42.912026 [debug]: Finished parsing models\staging\raw_pos_order_header.sql [  0.00s]
+14:02:42.918339 [debug]: Finished parsing models\staging\raw_pos_truck.sql [  0.01s]
+14:02:42.921829 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_COUNTRY_CITY_POPULATION.sql [  0.00s]
+14:02:42.922075 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_YEAR.sql [  0.00s]
+14:02:42.922229 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_MENU_SALE_PRICE_USD.sql [  0.00s]
+14:02:42.922462 [debug]: Finished parsing target\generic_tests\source_unique_tb_101_LOCATION_PLACEKEY.sql [  0.00s]
+14:02:42.922529 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_COUNTRY.sql [  0.00s]
+14:02:42.922834 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_FRANCHISE_LAST_NAME.sql [  0.00s]
+14:02:42.922940 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_QUANTITY.sql [  0.00s]
+14:02:42.924006 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_LINE_NUMBER.sql [  0.00s]
+14:02:42.924123 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_MENU_COST_OF_GOODS_USD.sql [  0.00s]
+14:02:42.924505 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_CURRENCY.sql [  0.01s]
+14:02:42.924981 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_COUNTRY_COUNTRY.sql [  0.00s]
+14:02:42.925074 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_DETAIL_QUANTITY.sql [  0.00s]
+14:02:42.925098 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_CITY.sql [  0.00s]
+14:02:42.926314 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_DETAIL_UNIT_PRICE.sql [  0.00s]
+14:02:42.926375 [debug]: Finished parsing target\generic_tests\source_relationships_tb_101_TR_61b29f3e57bd111e177a1464f4c4b159.sql [  0.00s]
+14:02:42.926463 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_COUNTRY.sql [  0.00s]
+14:02:42.926559 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_COUNTRY_COUNTRY_ID.sql [  0.00s]
+14:02:42.926599 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_MENU_ITEM_ID.sql [  0.00s]
+14:02:42.926611 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_ID.sql [  0.00s]
+14:02:42.926846 [debug]: Finished parsing target\generic_tests\source_unique_tb_101_MENU_MENU_ID.sql [  0.00s]
+14:02:42.928008 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_ISO_COUNTRY_CODE.sql [  0.00s]
+14:02:42.928027 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_TOTAL.sql [  0.00s]
+14:02:42.928043 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_MENU_TYPE_ID.sql [  0.00s]
+14:02:42.928087 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_LOCATION_ID.sql [  0.00s]
+14:02:42.928105 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_COUNTRY_ISO_COUNTRY.sql [  0.00s]
+14:02:42.928145 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_MENU_MENU_ID.sql [  0.00s]
+14:02:42.928481 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_ORDER_DETAIL_ID.sql [  0.00s]
+14:02:42.929612 [debug]: Finished parsing target\generic_tests\source_relationships_tb_101_OR_7ae3fa453ae71ee50b5d210b006f5af3.sql [  0.00s]
+14:02:42.929635 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_LOCATION.sql [  0.00s]
+14:02:42.929641 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_ORDER_ID.sql [  0.00s]
+14:02:42.929653 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_HEADER_ORDER_TOTAL.sql [  0.00s]
+14:02:42.929671 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_FRANCHISE_E_MAIL.sql [  0.00s]
+14:02:42.929682 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_PRIMARY_CITY.sql [  0.00s]
+14:02:42.930152 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_MENU_MENU_ITEM_ID.sql [  0.00s]
+14:02:42.931241 [debug]: Finished parsing target\generic_tests\source_unique_tb_101_LOCATION_LOCATION_ID.sql [  0.00s]
+14:02:42.931266 [debug]: Finished parsing target\generic_tests\source_relationships_tb_101_OR_cfd9c5a58204b2c088624e2dccdb70b4.sql [  0.00s]
+14:02:42.931302 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_TS.sql [  0.00s]
+14:02:42.931515 [debug]: Finished parsing target\generic_tests\source_unique_tb_101_TRUCK_TRUCK_ID.sql [  0.00s]
+14:02:42.931590 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_FRANCHISE_FIRST_NAME.sql [  0.00s]
+14:02:42.931635 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_MENU_MENU_ITEM_NAME.sql [  0.00s]
+14:02:42.931656 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_AMOUNT.sql [  0.00s]
+14:02:42.932946 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_MENU_MENU_TYPE_ID.sql [  0.00s]
+14:02:42.932953 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_LOCATION_ID.sql [  0.00s]
+14:02:42.932950 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_HEADER_ORDER_AMOUNT.sql [  0.00s]
+14:02:42.932975 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_FRANCHISE_FRANCHISE_ID.sql [  0.00s]
+14:02:42.933072 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_TRUCK_ID.sql [  0.00s]
+14:02:42.933186 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_DETAIL_PRICE.sql [  0.00s]
+14:02:42.933202 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_TRUCK_ID.sql [  0.00s]
+14:02:42.934422 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_TRUCK_OPENING_DATE.sql [  0.00s]
+14:02:42.934500 [debug]: Finished parsing target\generic_tests\source_relationships_tb_101_OR_073702fefa7ee71ff74298665e538aca.sql [  0.00s]
+14:02:42.961422 [info ]: Finished parsing [  0.18s]
+14:02:42.963341 [info ]: Cached model count updated: 10 models (estimate)
+14:02:42.963371 [info ]: Cached model count updated: 11 models (accurate)
+14:02:42.963537 [info ]: Started scheduling
+14:02:42.963837 [info ]: Finished scheduling [  0.00s]
+14:02:42.963863 [info ]: Started scheduling
+14:02:42.964101 [info ]: Finished scheduling [  0.00s]
+14:02:42.964185 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "CUSTOMER_LOYALTY" }) and interval: None
+14:02:42.964314 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "LOCATION" }) and interval: None
+14:02:42.964373 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "MENU" }) and interval: None
+14:02:42.964421 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "COUNTRY" }) and interval: None
+14:02:42.964470 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "FRANCHISE" }) and interval: None
+14:02:42.964515 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "TRUCK" }) and interval: None
+14:02:42.964558 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "ORDER_HEADER" }) and interval: None
+14:02:42.964604 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "ORDER_DETAIL" }) and interval: None
+14:02:42.965392 [info ]: Started deferring state
+14:02:42.965409 [info ]: Finished deferring state [  0.00s]
+14:02:42.965816 [info ]: Started downloading schemas
+14:02:42.965916 [debug]:    Started downloading relations
+14:02:42.965945 [debug]:   Finished [  0.00s] downloading relations
+14:02:42.966359 [info ]: Finished downloading schemas [  0.00s]
+14:02:43.058144 [info ]: Started loading project
+14:02:43.059038 [info ]: Loading profiles.yml
+14:02:43.066968 [info ]:    Started resolving packages from packages.yml
+14:02:43.117443 [info ]:   Finished [  0.05s] resolving packages from packages.yml
+14:02:43.117506 [debug]:    Started loading packages
+14:02:43.127399 [debug]:     Loaded [  0.01s] packages
+14:02:43.128152 [info ]: Finished loading project [  0.07s]
+14:02:43.128432 [info ]: Started parsing
+14:02:43.189643 [debug]: Finished parsing models\staging\__sources.yml [  0.00s]
+14:02:43.216100 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models\staging\__sources.yml:140:20
+14:02:43.224308 [error]: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> models\staging\__sources.yml:168:5
+14:02:43.225812 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models\staging\__sources.yml:187:20
+14:02:43.233852 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models\staging\__sources.yml:180:20
+14:02:43.238571 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models\staging\__sources.yml:273:20
+14:02:43.248451 [debug]: Finished parsing models\marts\customer_loyalty_metrics.sql [  0.00s]
+14:02:43.249664 [debug]: Finished parsing models\marts\orders.sql [  0.00s]
+14:02:43.250466 [debug]: Finished parsing models\staging\raw_customer_customer_loyalty.sql [  0.00s]
+14:02:43.251131 [debug]: Finished parsing models\staging\raw_pos_country.sql [  0.00s]
+14:02:43.252221 [debug]: Finished parsing models\staging\raw_pos_franchise.sql [  0.00s]
+14:02:43.254430 [debug]: Finished parsing models\staging\raw_pos_location.sql [  0.00s]
+14:02:43.255491 [debug]: Finished parsing models\staging\raw_pos_menu.sql [  0.00s]
+14:02:43.256509 [debug]: Finished parsing models\staging\raw_pos_order_detail.sql [  0.00s]
+14:02:43.259375 [debug]: Finished parsing models\staging\raw_pos_order_header.sql [  0.00s]
+14:02:43.267260 [debug]: Finished parsing models\staging\raw_pos_truck.sql [  0.01s]
+14:02:43.269702 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_MENU_SALE_PRICE_USD.sql [  0.00s]
+14:02:43.270091 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_YEAR.sql [  0.00s]
+14:02:43.270186 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_COUNTRY.sql [  0.00s]
+14:02:43.270440 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_QUANTITY.sql [  0.00s]
+14:02:43.270766 [debug]: Finished parsing target\generic_tests\source_unique_tb_101_LOCATION_PLACEKEY.sql [  0.00s]
+14:02:43.270836 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_CURRENCY.sql [  0.00s]
+14:02:43.270879 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_FRANCHISE_LAST_NAME.sql [  0.00s]
+14:02:43.271681 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_COUNTRY_CITY_POPULATION.sql [  0.00s]
+14:02:43.272952 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_MENU_COST_OF_GOODS_USD.sql [  0.00s]
+14:02:43.273186 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_DETAIL_QUANTITY.sql [  0.00s]
+14:02:43.273378 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_ID.sql [  0.00s]
+14:02:43.273738 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_CITY.sql [  0.00s]
+14:02:43.273927 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_COUNTRY_COUNTRY.sql [  0.00s]
+14:02:43.273965 [debug]: Finished parsing target\generic_tests\source_relationships_tb_101_TR_61b29f3e57bd111e177a1464f4c4b159.sql [  0.00s]
+14:02:43.274364 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_LINE_NUMBER.sql [  0.00s]
+14:02:43.274706 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_DETAIL_UNIT_PRICE.sql [  0.00s]
+14:02:43.275268 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_TOTAL.sql [  0.00s]
+14:02:43.276073 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_MENU_ITEM_ID.sql [  0.00s]
+14:02:43.276243 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_LOCATION_ID.sql [  0.00s]
+14:02:43.276250 [debug]: Finished parsing target\generic_tests\source_unique_tb_101_MENU_MENU_ID.sql [  0.00s]
+14:02:43.276304 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_COUNTRY_COUNTRY_ID.sql [  0.00s]
+14:02:43.276348 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_HEADER_ORDER_TOTAL.sql [  0.00s]
+14:02:43.276429 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_MENU_TYPE_ID.sql [  0.00s]
+14:02:43.276674 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_COUNTRY.sql [  0.00s]
+14:02:43.278030 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_ORDER_DETAIL_ID.sql [  0.00s]
+14:02:43.278177 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_TS.sql [  0.00s]
+14:02:43.278192 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_MENU_MENU_ID.sql [  0.00s]
+14:02:43.278280 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_PRIMARY_CITY.sql [  0.00s]
+14:02:43.278302 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_ISO_COUNTRY_CODE.sql [  0.00s]
+14:02:43.278496 [debug]: Finished parsing target\generic_tests\source_relationships_tb_101_OR_7ae3fa453ae71ee50b5d210b006f5af3.sql [  0.00s]
+14:02:43.279176 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_COUNTRY_ISO_COUNTRY.sql [  0.00s]
+14:02:43.279282 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_ORDER_ID.sql [  0.00s]
+14:02:43.280039 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_TRUCK_ID.sql [  0.00s]
+14:02:43.280459 [debug]: Finished parsing target\generic_tests\source_unique_tb_101_TRUCK_TRUCK_ID.sql [  0.00s]
+14:02:43.280542 [debug]: Finished parsing target\generic_tests\source_relationships_tb_101_OR_cfd9c5a58204b2c088624e2dccdb70b4.sql [  0.00s]
+14:02:43.280564 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_AMOUNT.sql [  0.00s]
+14:02:43.280586 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_LOCATION.sql [  0.00s]
+14:02:43.280791 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_FRANCHISE_E_MAIL.sql [  0.00s]
+14:02:43.280797 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_MENU_MENU_ITEM_ID.sql [  0.00s]
+14:02:43.282218 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_HEADER_ORDER_AMOUNT.sql [  0.00s]
+14:02:43.282282 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_TRUCK_ID.sql [  0.00s]
+14:02:43.282311 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_DETAIL_PRICE.sql [  0.00s]
+14:02:43.282448 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_MENU_MENU_ITEM_NAME.sql [  0.00s]
+14:02:43.282742 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_FRANCHISE_FIRST_NAME.sql [  0.00s]
+14:02:43.282791 [debug]: Finished parsing target\generic_tests\source_relationships_tb_101_OR_073702fefa7ee71ff74298665e538aca.sql [  0.00s]
+14:02:43.283122 [debug]: Finished parsing target\generic_tests\source_unique_tb_101_LOCATION_LOCATION_ID.sql [  0.00s]
+14:02:43.284075 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_TRUCK_OPENING_DATE.sql [  0.00s]
+14:02:43.284174 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_MENU_MENU_TYPE_ID.sql [  0.00s]
+14:02:43.284540 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_FRANCHISE_FRANCHISE_ID.sql [  0.00s]
+14:02:43.285141 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_LOCATION_ID.sql [  0.00s]
+14:02:43.306985 [info ]: Finished parsing [  0.18s]
+14:02:43.308717 [info ]: Cached model count updated: 10 models (estimate)
+14:02:43.308738 [info ]: Cached model count updated: 11 models (accurate)
+14:02:43.308891 [info ]: Started scheduling
+14:02:43.309189 [info ]: Finished scheduling [  0.00s]
+14:02:43.309220 [info ]: Started scheduling
+14:02:43.309614 [info ]: Finished scheduling [  0.00s]
+14:02:43.309701 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "TRUCK" }) and interval: None
+14:02:43.309794 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "ORDER_DETAIL" }) and interval: None
+14:02:43.309859 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "LOCATION" }) and interval: None
+14:02:43.309932 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "FRANCHISE" }) and interval: None
+14:02:43.310006 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "CUSTOMER_LOYALTY" }) and interval: None
+14:02:43.310098 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "COUNTRY" }) and interval: None
+14:02:43.310148 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "MENU" }) and interval: None
+14:02:43.310198 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "ORDER_HEADER" }) and interval: None
+14:02:43.310954 [info ]: Started deferring state
+14:02:43.310973 [info ]: Finished deferring state [  0.00s]
+14:02:43.311381 [info ]: Started downloading schemas
+14:02:43.311485 [debug]:    Started downloading relations
+14:02:43.311509 [debug]:   Finished [  0.00s] downloading relations
+14:02:43.311968 [info ]: Finished downloading schemas [  0.00s]
+==================== 2026-02-27T14:08:18.049235Z | a1eff4df-14a0-4045-b6f8-76acce1e0c77 ====================
+14:08:18.049377 [info ]: Starting dbt LSP server
+14:08:18.049445 [info ]: Connecting to LSP client on port 8000
+14:08:18.052595 [info ]: Successfully connected to LSP client
+14:08:18.052626 [info ]: Creating LSP service...
+14:08:18.181142 [info ]: Creating LSP server...
+14:08:18.181164 [info ]: Starting LSP server...
+14:08:18.234170 [info ]: Started loading project
+14:08:18.241198 [info ]: Loading profiles.yml
+14:08:18.251985 [info ]:    Started resolving packages from packages.yml
+14:08:18.389298 [info ]:   Finished [  0.14s] resolving packages from packages.yml
+14:08:18.389938 [debug]:    Started loading packages
+14:08:18.413712 [debug]:     Loaded [  0.02s] packages
+14:08:18.415800 [info ]: Finished loading project [  0.18s]
+14:08:18.416377 [info ]: Started parsing
+14:08:18.465064 [debug]: Finished parsing models\staging\__sources.yml [  0.00s]
+14:08:18.503547 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models\staging\__sources.yml:140:20
+14:08:18.512497 [error]: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> models\staging\__sources.yml:168:5
+14:08:18.514420 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models\staging\__sources.yml:187:20
+14:08:18.525696 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models\staging\__sources.yml:180:20
+14:08:18.529438 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models\staging\__sources.yml:273:20
+14:08:18.537491 [debug]: Finished parsing models\marts\customer_loyalty_metrics.sql [  0.00s]
+14:08:18.539089 [debug]: Finished parsing models\marts\orders.sql [  0.00s]
+14:08:18.540100 [debug]: Finished parsing models\staging\raw_customer_customer_loyalty.sql [  0.00s]
+14:08:18.541221 [debug]: Finished parsing models\staging\raw_pos_country.sql [  0.00s]
+14:08:18.542898 [debug]: Finished parsing models\staging\raw_pos_franchise.sql [  0.00s]
+14:08:18.543888 [debug]: Finished parsing models\staging\raw_pos_location.sql [  0.00s]
+14:08:18.544957 [debug]: Finished parsing models\staging\raw_pos_menu.sql [  0.00s]
+14:08:18.546288 [debug]: Finished parsing models\staging\raw_pos_order_detail.sql [  0.00s]
+14:08:18.547373 [debug]: Finished parsing models\staging\raw_pos_order_header.sql [  0.00s]
+14:08:18.553670 [debug]: Finished parsing models\staging\raw_pos_truck.sql [  0.01s]
+14:08:18.555422 [debug]: Finished parsing target\generic_tests\source_unique_tb_101_LOCATION_PLACEKEY.sql [  0.00s]
+14:08:18.555465 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_COUNTRY.sql [  0.00s]
+14:08:18.555471 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_CURRENCY.sql [  0.00s]
+14:08:18.555547 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_COUNTRY_CITY_POPULATION.sql [  0.00s]
+14:08:18.555687 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_FRANCHISE_LAST_NAME.sql [  0.00s]
+14:08:18.555755 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_YEAR.sql [  0.00s]
+14:08:18.555860 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_MENU_SALE_PRICE_USD.sql [  0.00s]
+14:08:18.555914 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_QUANTITY.sql [  0.00s]
+14:08:18.557584 [debug]: Finished parsing target\generic_tests\source_relationships_tb_101_TR_61b29f3e57bd111e177a1464f4c4b159.sql [  0.00s]
+14:08:18.557686 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_LINE_NUMBER.sql [  0.00s]
+14:08:18.557711 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_MENU_COST_OF_GOODS_USD.sql [  0.00s]
+14:08:18.557801 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_COUNTRY_COUNTRY.sql [  0.00s]
+14:08:18.557822 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_CITY.sql [  0.00s]
+14:08:18.557827 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_ID.sql [  0.00s]
+14:08:18.558468 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_DETAIL_QUANTITY.sql [  0.00s]
+14:08:18.559718 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_MENU_ITEM_ID.sql [  0.00s]
+14:08:18.559728 [debug]: Finished parsing target\generic_tests\source_unique_tb_101_MENU_MENU_ID.sql [  0.00s]
+14:08:18.559735 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_COUNTRY.sql [  0.00s]
+14:08:18.559745 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_TOTAL.sql [  0.00s]
+14:08:18.559722 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_COUNTRY_COUNTRY_ID.sql [  0.00s]
+14:08:18.559779 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_MENU_TYPE_ID.sql [  0.00s]
+14:08:18.559784 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_DETAIL_UNIT_PRICE.sql [  0.00s]
+14:08:18.561012 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_HEADER_ORDER_TOTAL.sql [  0.00s]
+14:08:18.561110 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_COUNTRY_ISO_COUNTRY.sql [  0.00s]
+14:08:18.561130 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_MENU_MENU_ID.sql [  0.00s]
+14:08:18.561135 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_LOCATION_ID.sql [  0.00s]
+14:08:18.561153 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_PRIMARY_CITY.sql [  0.00s]
+14:08:18.561243 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_ISO_COUNTRY_CODE.sql [  0.00s]
+14:08:18.561812 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_ORDER_DETAIL_ID.sql [  0.00s]
+14:08:18.562581 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_MENU_MENU_ITEM_ID.sql [  0.00s]
+14:08:18.562622 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_LOCATION.sql [  0.00s]
+14:08:18.562642 [debug]: Finished parsing target\generic_tests\source_unique_tb_101_TRUCK_TRUCK_ID.sql [  0.00s]
+14:08:18.562656 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_FRANCHISE_E_MAIL.sql [  0.00s]
+14:08:18.562669 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_TS.sql [  0.00s]
+14:08:18.562673 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_DETAIL_ORDER_ID.sql [  0.00s]
+14:08:18.562916 [debug]: Finished parsing target\generic_tests\source_relationships_tb_101_OR_7ae3fa453ae71ee50b5d210b006f5af3.sql [  0.00s]
+14:08:18.564271 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_TRUCK_ID.sql [  0.00s]
+14:08:18.564342 [debug]: Finished parsing target\generic_tests\source_relationships_tb_101_OR_cfd9c5a58204b2c088624e2dccdb70b4.sql [  0.00s]
+14:08:18.564522 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_MENU_MENU_ITEM_NAME.sql [  0.00s]
+14:08:18.564534 [debug]: Finished parsing target\generic_tests\source_unique_tb_101_LOCATION_LOCATION_ID.sql [  0.00s]
+14:08:18.564691 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_FRANCHISE_FIRST_NAME.sql [  0.00s]
+14:08:18.565032 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_TRUCK_ID.sql [  0.00s]
+14:08:18.565426 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_ORDER_HEADER_ORDER_AMOUNT.sql [  0.00s]
+14:08:18.565693 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_DETAIL_PRICE.sql [  0.00s]
+14:08:18.565768 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_LOCATION_LOCATION_ID.sql [  0.00s]
+14:08:18.565785 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_MENU_MENU_TYPE_ID.sql [  0.00s]
+14:08:18.565803 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_TRUCK_TRUCK_OPENING_DATE.sql [  0.00s]
+14:08:18.565815 [debug]: Finished parsing target\generic_tests\source_relationships_tb_101_OR_073702fefa7ee71ff74298665e538aca.sql [  0.00s]
+14:08:18.566005 [debug]: Finished parsing target\generic_tests\source_not_null_tb_101_FRANCHISE_FRANCHISE_ID.sql [  0.00s]
+14:08:18.566210 [debug]: Finished parsing target\generic_tests\source_is_positive_amount_tb_101_ORDER_HEADER_ORDER_AMOUNT.sql [  0.00s]
+14:08:18.584266 [info ]: Finished parsing [  0.17s]
+14:08:18.585347 [info ]: Cached model count updated: 10 models (estimate)
+14:08:18.585361 [info ]: Cached model count updated: 11 models (accurate)
+14:08:18.585526 [info ]: Started scheduling
+14:08:18.585868 [info ]: Finished scheduling [  0.00s]
+14:08:18.585902 [info ]: Started scheduling
+14:08:18.586086 [info ]: Finished scheduling [  0.00s]
+14:08:18.586222 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "ORDER_HEADER" }) and interval: None
+14:08:18.586301 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "LOCATION" }) and interval: None
+14:08:18.586351 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "CUSTOMER_LOYALTY" }) and interval: None
+14:08:18.586395 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "TRUCK" }) and interval: None
+14:08:18.586455 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "MENU" }) and interval: None
+14:08:18.586511 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "COUNTRY" }) and interval: None
+14:08:18.586547 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "FRANCHISE" }) and interval: None
+14:08:18.586583 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "TASTY_BYTES_DBT_DB", schema: "RAW", table: "ORDER_DETAIL" }) and interval: None
+14:08:18.587337 [info ]: Started deferring state
+14:08:18.587360 [info ]: Finished deferring state [  0.00s]
+14:08:18.588823 [info ]: Started downloading schemas
+14:08:18.589113 [debug]:    Started downloading relations
+14:08:18.589195 [debug]:   Finished [  0.00s] downloading relations
+14:08:18.661816 [info ]: Finished downloading schemas [  0.07s]
+14:08:18.931359 [info ]: Loading profiles.yml
